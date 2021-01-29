@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.nome-cadastro{
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 1px 2px black;
+}
+#alinha-formulario{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -40%);
+    text-align: center;
+    
+}
+.inputs-do-form{
+    padding-bottom: 15px; 
+    
+}
+.inputs-do-form input {
+    width: 200px;
+    border-radius: 50px;
+    outline: none;
+    padding: 8px;   
+}
+::-webkit-input-placeholder {
+    font-size: 15px;
+}
+.inputs-do-form input:focus  {
+    width: 280px;
+    transition-duration: 0.8s;
+    text-align: center;
+    
+}
+.button input {
+    padding: 5px;
+    border-radius: 6px;
+    
+}
